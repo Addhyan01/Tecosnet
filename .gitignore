@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment variables - NEVER upload to GitHub
+.env
+.env.local
+.env.production
+
+# Build
+build/
+
+# Mac files
+.DS_Store
+
+# Logs
+npm-debug.log*
