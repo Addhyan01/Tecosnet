@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Allow: /services
+Allow: /portfolio
+Allow: /about
+Allow: /career
+Allow: /contact
 
 Sitemap: https://tecsonet.com/sitemap.xml
