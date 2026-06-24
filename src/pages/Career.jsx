@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SEO from '../components/SEO';
-import { jobs, WA_URL, PHONE_DISPLAY } from '../data';
+import { jobs, WA_URL, PHONE_DISPLAY,WA_apply_job } from '../data';
 import { useScrollRevealAll } from '../hooks/useScrollReveal';
 
 const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
@@ -113,7 +113,7 @@ function ApplyForm({ job, onClose }) {
               {error && (
                 <div style={{ background: 'rgba(226,75,74,.1)', border: '1px solid rgba(226,75,74,.3)', borderRadius: 'var(--r-sm)', padding: '.75rem 1rem', fontSize: '.85rem', color: '#f09595', textAlign: 'center' }}>
                   ⚠️ {error}
-                  <a href={WA_URL} target="_blank" rel="noreferrer" style={{ color: '#25D366', marginLeft: '.5rem', fontWeight: 600 }}>Try WhatsApp →</a>
+                  <a href={WA_apply_job} target="_blank" rel="noreferrer" style={{ color: '#25D366', marginLeft: '.5rem', fontWeight: 600 }}>Try WhatsApp →</a>
                 </div>
               )}
               <p style={{ fontSize: '.72rem', color: 'var(--text3)', textAlign: 'center', fontWeight: 300 }}>We review all applications within 48 hours.</p>

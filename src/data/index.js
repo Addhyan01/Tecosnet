@@ -3,7 +3,9 @@ export const PHONE_DISPLAY = '+91 82713 38020';
 export const EMAIL = 'info@tecsonet.com';
 export const ADDRESS = 'Samastipur, Bihar — 848101';
 export const WA_URL = 'https://wa.me/918271338020';
-
+export const WA_Free_website_URL = 'https://wa.me/918271338020?text=I%20want%20a%20free%20website%20for%20my%20business.';
+export const WA_want_to_know = "https://wa.me/918271338020?text=Hii%2C%20I%20want%20to%20know%20more%20about%20Tecsonet%20services.";
+export const WA_apply_job = 'https://wa.me/918271338020?text=Hii%2C%20I%20want%20to%20apply%20for%20a%20job%20at%20Tecsonet.';
 export const services = [
   {
     id: 'web',
