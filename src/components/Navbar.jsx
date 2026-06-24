@@ -41,17 +41,8 @@ export default function Navbar() {
         } : {}),
       }}>
         {/* Logo */}
-        <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '.5rem' }}>
-          <div style={{
-            width: '32px', height: '32px',
-            background: 'linear-gradient(135deg, #00e5a0, #4f8ef7)',
-            borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontSize: '14px', fontWeight: 900, color: '#060608',
-            fontFamily: 'var(--fd)',
-          }}>T</div>
-          <span style={{ fontFamily: 'var(--fd)', fontWeight: 900, fontSize: '1.25rem', letterSpacing: '-.5px', color: 'var(--text)' }}>
-            tecs<span style={{ color: 'var(--green)' }}>o</span>net
-          </span>
+        <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+          <img src="/logo2.png" alt="Tecsonet logo" style={{ width: '228px', height: '73px', objectFit: 'contain' }} />
         </Link>
 
         {/* Desktop links */}
